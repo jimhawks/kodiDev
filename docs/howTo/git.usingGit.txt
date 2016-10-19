@@ -1,0 +1,6 @@
+to add files to git
+	> git add <file>
+	> git commit [<file>]
+
+to push changes back to github
+	> git push

@@ -1,0 +1,10 @@
+assumption:  running kodi on osmc
+
+get your ip address
+	boot the pi
+	system -> system info -> summary -> ip address
+
+ssh into the pi
+	ssh osmc@<ip address>
+	default password:  osmc
+

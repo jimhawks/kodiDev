@@ -1,0 +1,13 @@
+note!  This is all done on Windows
+
+install win32 disk imager
+	download url: https://sourceforge.net/projects/win32diskimager/?source=typ_redirect
+	take the defaults
+
+backup raspberry sd card
+	plug card into usb card reader
+	start win32 disk imager
+	do backup
+		imager -> device -> f: (where usb reader showed up)
+		imager -> image file -> button: folder icon -> navigate to where image file is to be created
+		imager -> button: read

@@ -1,0 +1,16 @@
+create repository on github
+	go to github
+		www.github.com
+	login
+	"+" sign -> new repository
+		repository name: "toolbox"
+		radio button: public
+		checkbox: "initialize this repository with a readme"
+		button: "create repository"
+
+cd to git repositories dir
+	> cd ~/git-repos
+
+create local copy of repository
+	> git clone https://github.com/jimhawks/toolbox
+

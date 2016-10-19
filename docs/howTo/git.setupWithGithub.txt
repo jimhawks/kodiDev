@@ -1,0 +1,44 @@
+useful url's
+	https://help.github.com/articles/set-up-git/
+	https://help.github.com/articles/keeping-your-email-address-private/
+	https://help.github.com/articles/which-remote-url-should-i-use/#cloning-with-https-urls-recommended
+	https://help.github.com/articles/caching-your-github-password-in-git/
+
+update linux
+	> sudo apt-get update
+
+install git
+	> sudo apt-get install git
+	> Y
+
+configure git commit settings
+	set name
+		> git config --global user.name "Jim Hawks"
+	set email (use private email to avoid spam)
+		> git config --global user.email "jimhawks@@users.noreply.github.com"
+	confirm email setting
+		> git config user.email
+	create repository on github
+		go to github
+			www.github.com
+		login
+		"+" sign -> new repository
+			repository name: "forkandspoon"
+			radio button: public
+			checkbox: "initialize this repository with a readme"
+			button: "create repository"
+	setup credential helper (for auto-login to github)
+		> git config --global credential.helper cache
+		> git config --global credential.helper 'cache --timeout=31536000'
+	create local copy of repository
+		> git clone https://github.com/jimhawks/forkandspoon
+
+change git editor to vi
+	add to .bashrc
+		export GIT_EDITOR=vi
+	close terminal
+	re-open terminal
+
+
+
+
